@@ -71,12 +71,12 @@ target/
 .sts4-cache
 
 ### NetBeans ###
-/demoNetBeans/nbproject/private/
-/demoNetBeans/nbbuild/
-/demoNetBeans/dist/
-/demoNetBeans/nbdist/
-/demoNetBeans/.nb-gradle/
-/demoNetBeansbuild/
+demoNetBeans/nbproject/private/
+demoNetBeans/nbbuild/
+demoNetBeans/dist/
+demoNetBeans/nbdist/
+demoNetBeans/.nb-gradle/
+demoNetBeansbuild/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
