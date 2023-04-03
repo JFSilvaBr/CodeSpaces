@@ -17,29 +17,32 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2NqgoRkTabVFEYkA1GmKVv1ls1g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/volume/CodeSpaces/demoIdea",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1368861",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/volume/CodeSpaces/demoIdea&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1368861&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Run">
+}</component>
+  <component name="RunManager" selected="Application.RunColors">
     <configuration name="JavaHome" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sconsole.tech.practice.e01.JavaHome" />
+      <option name="MAIN_CLASS_NAME" value="com.sconsole.academy.practice.e01.JavaHome" />
       <module name="demoIdea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sconsole.tech.practice.e01.*" />
+          <option name="PATTERN" value="com.sconsole.academy.practice.e01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +64,24 @@
       </method>
     </configuration>
     <configuration name="RunColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sconsole.tech.practice.e02.RunColors" />
+      <option name="MAIN_CLASS_NAME" value="com.sconsole.academy.practice.e02.RunColors" />
       <module name="demoIdea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sconsole.tech.practice.e02.*" />
+          <option name="PATTERN" value="com.sconsole.academy.practice.e02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sconsole.academy.practice.e03.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sconsole.academy.practice.e03.Run" />
+      <module name="demoIdea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sconsole.academy.practice.e03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,13 +91,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.JavaHome" />
+      <item itemvalue="Application.com.sconsole.academy.practice.e03.Run" />
       <item itemvalue="Application.RunColors" />
       <item itemvalue="Application.Run" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Run" />
         <item itemvalue="Application.RunColors" />
+        <item itemvalue="Application.com.sconsole.academy.practice.e03.Run" />
+        <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
   </component>

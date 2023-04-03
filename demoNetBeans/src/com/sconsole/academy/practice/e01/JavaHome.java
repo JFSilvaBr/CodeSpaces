@@ -1,4 +1,4 @@
-package com.sconsole.tech.practice.e01;
+package com.sconsole.academy.practice.e01;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;

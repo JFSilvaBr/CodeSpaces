@@ -1,4 +1,4 @@
-package com.sconsole.tech.practice.e02;
+package com.sconsole.academy.practice.e02;
 
 
 import javafx.application.Application;
