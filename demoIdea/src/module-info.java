@@ -11,5 +11,6 @@ module demoIdea {
     exports com.sconsole.academy.practice.e01;
     exports com.sconsole.academy.practice.e02;
     exports com.sconsole.academy.practice.e03;
+    exports com.sconsole.academy.practice.e04;
 
 }
