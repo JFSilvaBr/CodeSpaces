@@ -12,7 +12,7 @@ import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
-public class RunColors extends Application {
+public class TesteCores extends Application {
 
 	@Override
 	public void start(Stage primeiraStage) throws Exception {
@@ -51,17 +51,17 @@ public class RunColors extends Application {
 		
 		LinearGradient grad2 = new LinearGradient(0, 0, 1, 0, true, 
 				CycleMethod.NO_CYCLE, new Stop[] {
-						new Stop(0,Color.web("#28a745")),
+						new Stop(0,Color.AQUA),
 						new Stop(0.5,Color.YELLOW),
-						new Stop(1,Color.web("#ee6e73"))
+						new Stop(1,Color.RED)
 				});
 		
 		triangulo.setFill(grad2);
-		star.setFill(Color.web("FADABD"));
+		star.setFill(Color.WHITE);
 		//Adiocionando o item ao nó root
 		root.getChildren().addAll(rect, star, triangulo);
 		//Criando a scene
-		Scene scene = new Scene(root,800,600,Color.web("#4F81BD"));
+		Scene scene = new Scene(root,800,600,Color.BLACK);
 		
 		primeiraStage.setTitle("Demonstração de cores e formas");
 		primeiraStage.setScene(scene);

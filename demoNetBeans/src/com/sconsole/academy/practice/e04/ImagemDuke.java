@@ -45,7 +45,11 @@ public class ImagemDuke extends Group{
 		});
 		
 		this.setOnMouseDragged((evt)->{
-			System.out.println(evt.getScreenX() + ";" + evt.getScreenY());
+		double comprimento = this.getBoundsInLocal().getWidth()/2;
+		double largura = this.getBoundsInLocal().getHeight()/2;
+		this.setLayoutX(evt.getSceneX() - comprimento);
+		this.setLayoutY(evt.getSceneY() - largura);
+
 		});
 	}
 }
